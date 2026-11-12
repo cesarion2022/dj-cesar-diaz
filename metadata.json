@@ -1,0 +1,6 @@
+{
+  "name": "DJ Salsa Flow",
+  "description": "Plataforma oficial de DJ César Díaz con radio de salsa en vivo 24/7, mixes exclusivos de YouTube, clima de Ibagué y contrataciones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
