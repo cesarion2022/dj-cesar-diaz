@@ -105,6 +105,10 @@ class DjViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    fun pauseRadio() {
+        radioPlayer.pause()
+    }
+
     fun togglePlayStation() {
         val currentStation = stations[_selectedStationIndex.value]
         if (isPlaying.value) {

@@ -16,9 +16,12 @@ data class VideoMix(
 ) {
     val thumbnailUrl: String
         get() = "https://img.youtube.com/vi/$youtubeId/mqdefault.jpg"
-        
+
+    val hqThumbnailUrl: String
+        get() = "https://img.youtube.com/vi/$youtubeId/hqdefault.jpg"
+
     val embedUrl: String
-        get() = "https://www.youtube.com/embed/$youtubeId?autoplay=1&rel=0"
+        get() = "https://www.youtube.com/embed/$youtubeId?autoplay=1&playsinline=1&rel=0"
 }
 
 data class WeatherInfo(

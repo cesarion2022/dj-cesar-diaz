@@ -334,7 +334,8 @@ fun DjSalsaHomeScreen(
                 VideoMixSection(
                     videoMixes = viewModel.videoMixes,
                     selectedVideo = selectedVideo,
-                    onSelectVideo = { viewModel.selectVideo(it) }
+                    onSelectVideo = { viewModel.selectVideo(it) },
+                    onStartVideoPlayback = { viewModel.pauseRadio() }
                 )
             }
 
